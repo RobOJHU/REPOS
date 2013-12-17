@@ -1,0 +1,30 @@
+[custom_ol6_latest]
+name=Oracle Linux $releasever - $basearch - latest
+baseurl=https://darrh6mp1.dev.jhu.edu/OracleLinux/OL6/latest/$basearch/
+gpgcheck=1
+enabled=1
+#protect=1
+
+[custom_ol6_addons]
+name=Oracle Linux $releasever - $basearch - addons
+baseurl=https://darrh6mp1.dev.jhu.edu/OracleLinux/OL6/addons/$basearch/
+gpgcheck=1
+enabled=1
+
+[custom_ol6_oracle]
+name=Oracle Linux $releasever - $basearch - oracle
+baseurl=https://darrh6mp1.dev.jhu.edu/OracleLinux/OL6/oracle/$basearch/
+gpgcheck=1
+enabled=0
+
+[custom_ol6_u1_base]
+name=Oracle Linux $releasever U1 - $basearch - base
+baseurl=https://darrh6mp1.dev.jhu.edu/OracleLinux/OL6/1/base/$basearch/
+gpgcheck=1
+enabled=0
+
+[custom_ol6_u1_patch]
+name=Oracle Linux $releasever U1 - $basearch - patch
+baseurl=https://darrh6mp1.dev.jhu.edu/OracleLinux/OL6/1/patch/$basearch/
+gpgcheck=1
+enabled=0
