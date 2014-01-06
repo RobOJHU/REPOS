@@ -5,6 +5,7 @@ mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo
 gpgcheck=1
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-centos4
 protect=1
+enabled=1
 
 #released updates 
 [update]
@@ -14,6 +15,9 @@ mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo
 gpgcheck=1
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-centos4
 protect=1 
+enabled=1
+
+
 
 #packages used/produced in the build but not released
 [addons]
@@ -23,6 +27,8 @@ mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo
 gpgcheck=1
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-centos4
 protect=0 
+enabled=1
+
 
 #additional packages that may be useful
 [extras]
@@ -32,6 +38,9 @@ mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo
 gpgcheck=1
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-centos4
 protect=0 
+enabled=1
+
+
 
 #additional packages that extend functionality of existing packages
 [centosplus]
@@ -42,6 +51,9 @@ gpgcheck=1
 enabled=0
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-centos4
 protect=0 
+enabled=1
+
+
 
 #contrib - packages by Centos Users
 [contrib]
@@ -52,3 +64,7 @@ gpgcheck=1
 enabled=0
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-centos4
 protect=0
+enabled=1
+
+
+
