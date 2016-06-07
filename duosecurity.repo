@@ -1,0 +1,3 @@
+baseurl=http://pkg.duosecurity.com/RedHat/$releasever/$basearch
+enabled=1
+gpgcheck=0
